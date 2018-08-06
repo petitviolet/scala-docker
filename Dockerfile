@@ -1,4 +1,4 @@
-FROM "openjdk:10.0.1-jdk-slim"
+FROM "openjdk:10.0.2-jdk-slim"
 
 LABEL maintainer="petitviolet <mail@petitviolet.net>"
 LABEL description="Scala+sbt image"
