@@ -4,7 +4,7 @@ LABEL maintainer="petitviolet <mail@petitviolet.net>"
 LABEL description="Scala+sbt image"
 
 ENV SCALA_VERSION 2.12.6
-ENV SBT_VERSION 1.1.6
+ENV SBT_VERSION 1.2.0
 
 # Install curl
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
