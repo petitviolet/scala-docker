@@ -1,4 +1,4 @@
-FROM "adoptopenjdk/openjdk:jdk-11.28"
+FROM "adoptopenjdk/openjdk11:jdk-11.28"
 
 LABEL maintainer="petitviolet <mail@petitviolet.net>"
 LABEL description="Scala+sbt image"
